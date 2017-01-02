@@ -1,0 +1,31 @@
+<html>
+
+    <head>
+        <title>Tar Heel Speller</title>
+
+        <meta charset="utf-8"/>
+
+        <script src="javascript/events.js"></script>
+        <script src="javascript/divs.js"></script>
+        <script src="javascript/buttons.js"></script>
+        <script src="javascript/howler.js"></script>
+        <script src="javascript/analytics.js"></script>
+        <link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
+    </head>
+
+    <body bgcolor="#F5F5F5" id="body" onload="clickLeft();" onresize="adjustDivs();" onkeydown="downscan(event);" onkeyup="upscan(event);">
+        <div id="center" class="middlealign">
+            <canvas id="canvas" class="canvascenter" onclick="speakLetter();"></canvas>
+            <textarea id="text" class="textarea" rows="4" cols="50"></textarea>
+            <div class="buttonsdiv">
+                <canvas id="settings" class="button" onclick="settingsMenu();" onmouseover="mouseoverButton('settings');" onmouseout="restoreButtons();"></canvas>
+                <canvas id="speak" class="button" onclick="speakBox();" onmouseover="mouseoverButton('speak');" onmouseout="restoreButtons();"></canvas>
+                <canvas id="print" class="button" onclick="printBox();" onmouseover="mouseoverButton('print');" onmouseout="restoreButtons();"></canvas>
+            </div>
+            <script>createSettings(); createPrint(); createSpeak();</script>
+        </div>
+        <div id="divleft" class="divleft" onclick="clickLeft();" onmouseover="changeLeft('#C4F4D2');" onmouseout="changeLeft('#F5F5F5');">NEXT LETTER</div>
+        <div id="divright" class="divright" onclick="clickRight()" onmouseover="changeRight('#FBC8CA');" onmouseout="changeRight('#F5F5F5');">WRITE IT</div>
+    </body>
+    
+</html>

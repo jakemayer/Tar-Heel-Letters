@@ -1,0 +1,14 @@
+.buttonsdiv
+{
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+}
+.button
+{
+	display: inline;
+	margin-left: 13%;
+	margin-top: 2%;
+	width: 17%;
+}

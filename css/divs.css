@@ -1,0 +1,41 @@
+.divleft
+{
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(34,177,76,255);
+	border-radius: 3%;
+	border-style: solid;
+	border-width: thick;
+	color: rgba(34,177,76,255);
+	display: flex;
+	font-family: Arial Black;
+	font-size: 4vw;
+	justify-content: center;
+	margin-bottom: auto;
+	margin-left: 4%;
+	margin-right: 70%;
+	margin-top: 3%;
+	position: absolute;
+	text-align: center;
+	width: 26%;
+}
+.divright
+{
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(237,28,36,255);
+	border-radius: 3%;
+	border-style: solid;
+	border-width: thick;
+	color: rgba(237,28,36,255);
+	display: flex;
+	font-family: Arial Black;
+	font-size: 4vw;
+	justify-content: center;
+	margin-bottom: auto;
+	margin-left: 70%;
+	margin-right: 4%;
+	margin-top: 3%;
+	position: absolute;
+	width: 26%;
+}
